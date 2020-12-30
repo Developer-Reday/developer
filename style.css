@@ -1,0 +1,303 @@
+/* ====================== */
+/* This code is designed by develper reday  */
+/* https://rabiulreday.xyz */
+/* ====================== */
+
+
+
+
+*, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./img/bg.png) repeat;
+    border-top: 20px solid #C0C0C2;
+    scroll-behavior: smooth;
+}
+p{
+    color: #2c2d2d;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+h2{
+    color: #c0c0c2;
+    font-size: 58px;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+h2::after{
+    content: "";
+    display: block;
+    border-bottom: 4px solid #6C9CE4 ;
+    width: 20%;
+    margin-left: 10%;
+}
+.container{
+    max-width: 965px;
+    margin: 0 auto;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.mt70px{
+    margin-top: 70px;
+}
+/* Header Part */
+.headPart{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.headLeft{
+    width: 40%;
+    text-transform: uppercase;
+}
+.headLeft h1{
+    font-family: serif;
+    font-size: 67px;
+    line-height: 55px;
+    color: #2D2D2E;
+}
+
+.headRight{
+    width: 60%;
+    text-transform: uppercase;
+    text-align: right;
+}
+.headRight ul{
+    list-style-type: none;
+
+}
+.headRight ul li {
+	display: inline-block;
+	background: url(./img/shape.png) no-repeat center;
+	width: 75px;
+    height: 70px;
+    transition: all .3s;
+}
+.headRight ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 0 18px 0 0;
+    line-height: 68px;
+    color: #fff;
+    font-family: serif;
+    font-size: 13px;
+}
+.headRight ul li:hover > a, .headRight .active{
+    background: url(./img/hover_shape.png) no-repeat center;
+}
+
+/* Content Part */
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.contentLeft{
+    width: 45%;
+}
+.topH2 {
+	color: #6C9CE4;
+	line-height: 55px;
+	font-size: 67px;
+	margin-bottom: 77px;
+}
+/* work part */
+.work {
+	list-style-image: url(./img/list_style_arrow.png);
+	margin-left: 20px;
+	margin-bottom: 80px;
+}
+.work li {
+	padding-bottom: 7px;
+}
+.work li a{
+    text-decoration: none;
+    color: #000000;
+}
+.work li a:hover, .work .active{
+    color: #2067D2;
+}
+/* Get in touch part */
+.nameForm, .emailForm{
+    border: 1px solid #C0C0C2;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.msgBox {
+	width: 80%;
+	padding: 3px;
+	border: 1px solid #C0C0C2;
+	height: 218px;
+}
+.submitBtn {
+	background: url(./img/hover_shape.png) no-repeat center;
+	background-size: 62%;
+	border: none;
+	color: #fff;
+	width: 16%;
+	height: 70px;
+	bottom: 15px;
+	position: relative;
+}
+/* Contact part */
+.contact{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.sameContact{
+    width: 42%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contentIcon{
+    width: 20%;
+}
+.contentText{
+    width: 80%;
+}
+.contentText p {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+.contentIcon span {
+	background: #6C9CE4;
+	color: #fffdfd;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding: 0px 0px;
+	line-height: 28px;
+	display: inline-block;
+}
+.icon {
+    padding: 0 6px;
+    transition: .2s;
+}
+.icon:hover {
+    padding: 0 6px;
+    transform: scale(1.1);
+}
+
+
+/* Content Right part */
+
+.contentRight{
+    width: 45%;
+}
+
+/* skills part */
+.skillh2 {
+	margin-top: 107px;
+}
+.skill {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-top: 1px solid #C0C0C2;
+	border-left: 1px solid #C0C0C2;
+	padding-top: 5px;
+	transform: rotate(270deg);
+	width: 70%;
+}
+.skill li{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: #fff;
+}
+.skill li:nth-child(1){
+    background-color: rgb(255, 196, 0);
+    width: 100%;
+}
+.skill li:nth-child(2){
+    background-color: rgb(145, 226, 14);
+    width: 70%;
+}
+.skill li:nth-child(3){
+    background-color: rgb(167, 36, 36);
+    width: 60%;
+}
+.skill li:nth-child(4){
+    background-color: rgb(15, 133, 230);
+    width: 80%;
+}
+.skill li:nth-child(5){
+    background-color: rgb(209, 18, 235);
+    width: 75%;
+}
+.skill li:nth-child(6){
+    background-color: rgb(178, 238, 12);
+    width: 50%;
+}
+.skill li:nth-child(7){
+    background-color: rgb(240, 21, 21);
+    width: 40%;
+}
+
+/* Technology Part */
+.technologyP {
+	margin-top: 86px;
+}
+.technology{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.technology li{
+    display: inline-block;
+    padding-right: 8px;
+}
+.technology li img {
+	width: 50px;
+}
+/* Help part */
+.help {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #C0C0C2;
+	position: relative;
+	margin-top: 40px;
+}
+.profile{
+    width: 30%;
+}
+.profileText{
+    width: 65%;
+}
+.profileText ul{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.scrollTop{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #6C9CE4;
+    color: #750f0f;
+    padding: 2px 10px;
+    background-color: rgb(95, 114, 8);
+    border-radius: 20% 30% 40% 50%;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    margin-bottom: 80px;
+}
